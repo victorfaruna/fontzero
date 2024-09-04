@@ -6,13 +6,13 @@
 <div
 	class:translate-x-[-100%]={!isSideNavShown}
 	class:translate-x-[0]={isSideNavShown}
-	class={`sidenav absolute z-[200] flex h-screen w-[70vw] items-center justify-center bg-black/80 transition-transform duration-[0.3s] ease-in-out`}
+	class={`sidenav absolute z-[200] flex h-screen w-[70vw] items-center justify-center bg-color-1/90 transition-transform duration-[0.3s] ease-in-out`}
 >
 	<nav class="flex flex-col gap-10 text-color-5">
-		<li><a href="/#">Home</a></li>
-		<li><a href="/#">Support</a></li>
-		<li><a href="/#">Github</a></li>
-		<li><a href="/#">Twitter</a></li>
+		<li><a href="/">Home</a></li>
+		<li><a href="https://x.com/dello_thefirst">Support</a></li>
+		<li><a href="https://github.com/victorfaruna/fontzero">Github</a></li>
+		<li><a href="https://x.com/dello_thefirst">Twitter</a></li>
 	</nav>
 </div>
 <header class="flex h-[100px] w-full items-center justify-center">
@@ -25,9 +25,9 @@
 		</div>
 		<nav class="flex gap-10 sm:hidden">
 			<li><a href="/#">Home</a></li>
-			<li><a href="/#">Support</a></li>
-			<li><a href="/#">Github</a></li>
-			<li><a href="/#">Twitter</a></li>
+			<li><a href="https://x.com/dello_thefirst">Support</a></li>
+			<li><a href="https://github.com/victorfaruna/fontzero">Github</a></li>
+			<li><a href="https://x.com/dello_thefirst">Twitter</a></li>
 		</nav>
 		<div class="flex items-center gap-3 sm:hidden">
 			<ThemeToggle />
@@ -41,7 +41,10 @@
 
 		<div class="hidden items-center gap-3 sm:flex">
 			<ThemeToggle />
-			<button on:click={() => (isSideNavShown = !isSideNavShown)} class="text-[20px]">
+			<button
+				on:click={() => (isSideNavShown = !isSideNavShown)}
+				class="h-[23px] w-[23px] rounded-md bg-color-1/10 text-color-1"
+			>
 				<i class:fa-bars={!isSideNavShown} class:fa-xmark-large={isSideNavShown} class="fa-regular"
 				></i>
 			</button>

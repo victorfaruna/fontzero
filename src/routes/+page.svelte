@@ -39,7 +39,7 @@
 		</div>
 
 		<div
-			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
+			class="flex w-auto items-center justify-center gap-6 rounded-lg bg-color-2/5 px-5 py-3 shadow-xl sm:min-w-full sm:flex-col sm:text-[10px]"
 		>
 			<span class="text-color-1/50">embed in &lt;head&gt;&lt;/head&gt tag</span>
 			<code>
@@ -59,7 +59,7 @@
 			</button>
 		</div>
 		<div
-			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
+			class="flex w-auto items-center justify-center gap-6 rounded-lg bg-color-2/5 px-5 py-3 shadow-xl sm:min-w-full sm:flex-col sm:text-[10px]"
 		>
 			<span class="text-color-1/50">Use fontawesome icons normally</span>
 			<code>
@@ -81,5 +81,13 @@
 			</button>
 		</div>
 		<button class="rounded-xl bg-color-1/80 px-[30px] py-[10px] text-color-5">Support !</button>
+
+		<p class="mb-10">
+			Created by <a
+				href="https://victorfaruna.vercel.app"
+				class="underline underline-offset-[4px]"
+				target="_blank">Victor Faruna</a
+			>
+		</p>
 	</div>
 </main>
