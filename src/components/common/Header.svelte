@@ -3,7 +3,9 @@
 </script>
 
 <div
-	class={`sidenav absolute z-[200] hidden h-screen w-[70vw] backdrop-blur-[5px] transition-transform duration-[0.1s] ease-in-out sm:block ${!isSideNavShown ? 'translate-x-[-100%]' : 'translate-x-0'} bg-black/50`}
+	class:translate-x-[-100%]={!isSideNavShown}
+	class:translate-x-[0]={isSideNavShown}
+	class={`sidenav absolute z-[200] hidden h-screen w-[70vw] bg-black/50 backdrop-blur-[5px] transition-transform duration-[0.1s] ease-in-out sm:block`}
 ></div>
 <header class="flex h-[100px] w-full items-center justify-center">
 	<div
