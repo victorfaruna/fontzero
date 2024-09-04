@@ -64,10 +64,8 @@
 			<span class="text-color-1/50">Use fontawesome icons normally</span>
 			<code>
 				&lt;<span class="text-[#d4203e]">i</span> <span class="text-[#e8a11e]">class</span>=<span
-					class="text-[#e8a11e]">src</span
-				>=<span class="text-[#6ba86b]">'fa-thin fa-star'</span>&gt;&lt;/<span class="text-[#d4203e]"
-					>i</span
-				>&gt;</code
+					class="text-[#6ba86b]">'fa-thin fa-star'</span
+				>&gt;&lt;/<span class="text-[#d4203e]">i</span>&gt;</code
 			>
 			<button
 				on:click={copyTag}
