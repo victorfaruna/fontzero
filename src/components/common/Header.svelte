@@ -5,7 +5,7 @@
 <div
 	class:translate-x-[-100%]={!isSideNavShown}
 	class:translate-x-[0]={isSideNavShown}
-	class={`sidenav absolute z-[200] hidden h-screen w-[70vw] bg-black/50 backdrop-blur-[5px] transition-transform duration-[0.1s] ease-in-out sm:block`}
+	class={`sidenav absolute z-[200] h-screen w-[70vw] bg-black/50 transition-transform duration-[0.3s] ease-in-out`}
 ></div>
 <header class="flex h-[100px] w-full items-center justify-center">
 	<div
