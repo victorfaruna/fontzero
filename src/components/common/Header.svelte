@@ -22,6 +22,6 @@
 			class="btn flex h-[30px] w-[110px] items-center justify-center gap-2 rounded-2xl bg-color-3 text-color-5 sm:hidden"
 			>Login <i class="fa-light fa-arrow-right"></i></a
 		>
-		<div><i class="fa-regular fa-bars hidden text-[20px] sm:block"></i></div>
+		<div class="hidden text-[20px] sm:block"><i class="fa-regular fa-bars"></i></div>
 	</div>
 </header>

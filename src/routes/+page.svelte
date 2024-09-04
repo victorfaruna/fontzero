@@ -30,13 +30,17 @@
 		</div>
 
 		<div
-			class="flex w-auto gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:px-2 sm:py-1 sm:text-[10px]"
+			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
 		>
 			<code> &lt;script src='{scriptUrl}' /&gt;</code>
-			<button on:click={copyScript}>
-				<i class:fa-solid={copied} class:fa-light={!copied} class={`fa-copy cursor-pointer`}></i>
+			<button
+				on:click={copyScript}
+				class="w-auto rounded-lg bg-color-1/10 px-3 py-2 active:bg-color-2/20"
+			>
+				Copy <i class:fa-solid={copied} class:fa-light={!copied} class={`fa-copy cursor-pointer`}
+				></i>
 			</button>
 		</div>
-		<button class="rounded-xl bg-color-1/80 px-[30px] py-[10px] text-color-5">Get Started</button>
+		<button class="rounded-xl bg-color-1/80 px-[30px] py-[10px] text-color-5">Support !</button>
 	</div>
 </main>
