@@ -32,6 +32,7 @@
 		<div
 			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
 		>
+			<span class="text-color-1/30">embed in &lt;head&gt;&lt;/head&gt tag</span>
 			<code> &lt;script src='{scriptUrl}' /&gt;</code>
 			<button
 				on:click={copyScript}
