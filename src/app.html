@@ -1,10 +1,21 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<script src="https://fontzero.vercel.app/script/embedicons.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			const theme = localStorage.getItem('theme');
+			if (!theme) {
+				localStorage.setItem('theme', 'dark');
+			}
+			document.documentElement.setAttribute('data-theme', theme);
+		</script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
 		<!-- Basic Meta Tags -->
 		<title>Font Zero - Free Access to Premium FontAwesome Icons</title>
 		<meta

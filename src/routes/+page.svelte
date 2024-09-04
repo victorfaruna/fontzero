@@ -41,7 +41,7 @@
 		<div
 			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
 		>
-			<span class="text-color-1/30">embed in &lt;head&gt;&lt;/head&gt tag</span>
+			<span class="text-color-1/50">embed in &lt;head&gt;&lt;/head&gt tag</span>
 			<code> &lt;script src='{scriptUrl}' /&gt;</code>
 			<button
 				on:click={copyScript}
@@ -57,7 +57,7 @@
 		<div
 			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
 		>
-			<span class="text-color-1/30">Use fontawesome icons normally</span>
+			<span class="text-color-1/50">Use fontawesome icons normally</span>
 			<code> &lt;i class='fa-thin fa-star'&gt;&lt;/i&gt;</code>
 			<button
 				on:click={copyTag}
