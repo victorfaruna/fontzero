@@ -32,8 +32,8 @@
 				Get premium <br /><span class="text-color-3">fontawesome</span> icons for free.
 			</p>
 			<p class="text-[14px] text-color-2/70 sm:px-5 sm:text-[11px]">
-				Font-Zer0provides free access to all of FontAwesome's premium fonts, allowing you to utilize
-				their extensive collection of high-quality icons and symbols at no cost. Perfect for
+				Font-Zer0 provides free access to all of FontAwesome's premium fonts, allowing you to
+				utilize their extensive collection of high-quality icons and symbols at no cost. Perfect for
 				enhancing your design projects without any licensing fees.
 			</p>
 		</div>
@@ -42,7 +42,11 @@
 			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
 		>
 			<span class="text-color-1/50">embed in &lt;head&gt;&lt;/head&gt tag</span>
-			<code> &lt;script src='{scriptUrl}' /&gt;</code>
+			<code>
+				&lt;<span class="text-[#d4203e]">script</span>
+				<span class="text-[#e8a11e]">src</span>=<span class="text-[#6ba86b]">'{scriptUrl}'</span
+				>/<span class="text-[#d4203e]">&gt</span>;</code
+			>
 			<button
 				on:click={copyScript}
 				class="w-auto rounded-lg bg-color-1/10 px-3 py-2 active:bg-color-2/20"
@@ -58,7 +62,13 @@
 			class="flex w-auto items-center justify-center gap-6 rounded-2xl bg-color-2/5 px-5 py-3 shadow-xl sm:max-w-full sm:flex-col sm:text-[10px]"
 		>
 			<span class="text-color-1/50">Use fontawesome icons normally</span>
-			<code> &lt;i class='fa-thin fa-star'&gt;&lt;/i&gt;</code>
+			<code>
+				&lt;<span class="text-[#d4203e]">i</span> <span class="text-[#e8a11e]">class</span>=<span
+					class="text-[#e8a11e]">src</span
+				>=<span class="text-[#6ba86b]">'fa-thin fa-star'</span>&gt;&lt;/<span class="text-[#d4203e]"
+					>i</span
+				>&gt;</code
+			>
 			<button
 				on:click={copyTag}
 				class="w-auto rounded-lg bg-color-1/10 px-3 py-2 active:bg-color-2/20"

@@ -6,8 +6,15 @@
 <div
 	class:translate-x-[-100%]={!isSideNavShown}
 	class:translate-x-[0]={isSideNavShown}
-	class={`sidenav absolute z-[200] h-screen w-[70vw] bg-black/50 transition-transform duration-[0.3s] ease-in-out`}
-></div>
+	class={`sidenav absolute z-[200] flex h-screen w-[70vw] items-center justify-center bg-black/80 transition-transform duration-[0.3s] ease-in-out`}
+>
+	<nav class="flex flex-col gap-10 text-color-5">
+		<li><a href="/#">Home</a></li>
+		<li><a href="/#">Support</a></li>
+		<li><a href="/#">Github</a></li>
+		<li><a href="/#">Twitter</a></li>
+	</nav>
+</div>
 <header class="flex h-[100px] w-full items-center justify-center">
 	<div
 		class="inner flex h-auto w-[95%] items-center justify-between rounded-3xl border border-color-2/10 bg-color-2/10 px-3 py-2 shadow-lg backdrop-blur-[10px]"
