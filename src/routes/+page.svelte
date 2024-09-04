@@ -16,13 +16,13 @@
 <Header />
 <main class="">
 	<div
-		class="flex h-[calc(100vh-200px)] flex-col items-center justify-center gap-9 px-[15%] text-center sm:h-auto sm:px-[5%]"
+		class="flex h-[calc(100vh-200px)] flex-col items-center justify-center gap-9 px-[15%] text-center sm:mt-10 sm:h-auto sm:px-[3%]"
 	>
 		<div>
 			<p class="text-[50px] font-semibold sm:text-[30px]">
-				Get all <span class="text-color-3">fontawesome</span> icons for free.
+				Get premium <br /><span class="text-color-3">fontawesome</span> icons for free.
 			</p>
-			<p class="text-[14px] text-color-2/70 sm:text-[11px]">
+			<p class="text-[14px] text-color-2/70 sm:px-5 sm:text-[11px]">
 				Font Zero provides free access to all of FontAwesome's premium fonts, allowing you to
 				utilize their extensive collection of high-quality icons and symbols at no cost. Perfect for
 				enhancing your design projects without any licensing fees.

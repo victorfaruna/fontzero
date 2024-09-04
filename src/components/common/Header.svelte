@@ -4,7 +4,7 @@
 
 <header class="flex h-[100px] w-full items-center justify-center">
 	<div
-		class="inner bg-color-2/10 border-color-2/10 flex h-auto w-[95%] items-center justify-between rounded-3xl border px-3 py-2 shadow-lg backdrop-blur-[10px]"
+		class="inner flex h-auto w-[95%] items-center justify-between rounded-3xl border border-color-2/10 bg-color-2/10 px-3 py-2 shadow-lg backdrop-blur-[10px]"
 	>
 		<div class="logo flex items-center gap-5">
 			<img class="w-[25px]" src="/favicon.png" alt="Logo" />
@@ -19,8 +19,9 @@
 		<a
 			href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 			target="_blank"
-			class="btn text-color-5 flex h-[30px] w-[110px] items-center justify-center gap-2 rounded-2xl bg-color-3"
+			class="btn flex h-[30px] w-[110px] items-center justify-center gap-2 rounded-2xl bg-color-3 text-color-5 sm:hidden"
 			>Login <i class="fa-light fa-arrow-right"></i></a
 		>
+		<div><i class="fa-regular fa-bars hidden text-[20px] sm:block"></i></div>
 	</div>
 </header>
